@@ -1,0 +1,228 @@
+@import url(https://fonts.googleapis.com/css?family=Lato);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+a {
+    text-decoration: none;
+    color: #fff;
+}
+p > a:hover{
+    color: #d9d9d9;
+    text-decoration:  underline;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin:  1% 0 1% 0;
+}
+.chalsa {
+    font-family: 'Chelsea Market', Georgia, serif;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+._12 {
+    font-size: 1.2em;
+}
+._14 {
+    font-size: 1.4em;
+}
+ul {
+    padding:0;
+    list-style: none;
+}
+.footer-social-icons {
+    width: 350px;
+    display:block;
+    margin: 0 auto;
+}
+.social-icon {
+    color: #fff;
+}
+ul.social-icons {
+    margin-top: 10px;
+}
+.social-icons li {
+    vertical-align: top;
+    display: inline;
+    height: 100px;
+}
+.social-icons a {
+    color: #fff;
+    text-decoration: none;
+}
+.fa-facebook {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-facebook:hover {
+    background-color: #3d5b99;
+}
+.fa-twitter {
+    padding:10px 12px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-twitter:hover {
+    background-color: #00aced;
+}
+
+.hackerrank{
+    
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color:#585555;
+}
+.hackerrank:hover {
+    background-color: #1ceb4f;
+}
+.quora{
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color:#585555;
+}
+.quora:hover{
+    background-color: #fd0000;
+}
+
+.fa-linkedin {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-linkedin:hover {
+    background-color: #0073a4;
+}
+.fa-google-plus {
+    padding:10px 9px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-google-plus:hover {
+    background-color: #e25714;
+}
+
+
+
+.danger {
+    background-color: #ffdddd;
+    border-left: 6px solid #f44336;
+  }
+  
+  .success {
+    background-color: #ddffdd;
+    border-left: 6px solid #4CAF50;
+  }
+  
+  .info {
+    background-color: #e7f3fe;
+    border-left: 6px solid #2196F3;
+  }
+  
+  
+  .warning {
+    background-color: #ffffcc;
+    border-left: 6px solid #ffeb3b;
+  }
+  
+.expnc {
+    padding : 30 px;
+
+}
+
+.ico-title {
+    font-size: 2em;
+}
+.iconlist {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.iconlist li {
+    position: relative;
+    margin: 5px;
+    width: 150px;
+    cursor: pointer;
+}
+.iconlist li .icon-holder {
+    position: relative;
+    text-align: center;
+    border-radius: 3px;
+    overflow: hidden;
+    padding-bottom: 5px;
+    background: #ffffff;
+    border: 1px solid #E4E5EA;
+    transition: all 0.2s linear 0s;
+}
+.name {
+    font-family: times, Times New Roman, times-roman, georgia, serif;
+ color: #444;
+ padding-right: 10px;
+  
+ font-size: 30px;
+ line-height: 44px;
+ letter-spacing: 1px;
+ font-weight: bold;
+}
+.iconlist li .icon-holder:hover {
+    background: #00C3DA;
+    color: #ffffff;
+}
+.iconlist li .icon-holder:hover .icon i {
+    color: #ffffff;
+}
+.iconlist li .icon-holder .icon {
+    padding: 20px;
+    text-align: center;
+}
+.iconlist li .icon-holder .icon i {
+    font-size: 3em;
+    color: #1F1142;
+}
+.iconlist li .icon-holder span {
+    font-size: 14px;
+    display: block;
+    margin-top: 5px;
+    border-radius: 3px;
+}
+
+.roman{
+    font-family:Times New Roman ;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.icon{
+    display: inline;
+}
